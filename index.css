@@ -177,6 +177,41 @@ section {
     color: white;
     background: rgb(6,40,61);
     background: linear-gradient(90deg, rgba(6,40,61,1) 0%, rgba(19,99,223,1) 50%, rgba(0,212,255,1) 100%);
-    height: 50vh;
-    padding: 0;
+    padding: 10vh;
+}
+
+.stats .title {
+    margin-bottom: 30px
+}
+
+.stats .subtitle {
+    margin-bottom: 50px
+}
+
+.testimonial{
+    height: 70vh;
+}
+
+.testimonial .text{
+    width: 50%;
+    padding: 30px;
+    border: 1px solid #bcbcbc;
+    border-radius: 5px;
+}
+
+.testimonial .carousel-control-prev{
+    width: 65px;
+    height: 60px;
+    background-color: #383a90;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.testimonial .carousel-control-next{
+    width: 65px;
+    height: 60px;
+    background-color: #383a90;
+    margin-top: auto;
+    margin-bottom: auto;
+    
 }
